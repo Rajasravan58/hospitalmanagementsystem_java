@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Homepage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .data-table th {
+            background-color: #4287f5;
+            color: #fff;
+        }
+        .data-table td img {
+            max-width: 150px; /* Increased image size */
+            display: block;
+            margin: 0 auto;
+        }
+        .book-appointment-btn {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .book-appointment-btn button {
+            background-color: #4287f5;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .book-appointment-btn button:hover {
+            background-color: #3366cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hospital Information</h1>
+        <table class="data-table">
+            <tr>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>Available Beds</td>
+                <td>100</td>
+                <td><img src="https://miro.medium.com/v2/resize:fit:1038/1*lobisBOczg3jqWRpj0juig.png" alt="Beds Image"></td>
+            </tr>
+            <tr>
+                <td>Saline Bags</td>
+                <td>500</td>
+                <td><img src="https://t3.ftcdn.net/jpg/04/87/69/78/360_F_487697839_RTffas8ua4amUx2XFrhrMNOioktvX5q5.jpg" alt="Saline Bags Image"></td> <!-- Placeholder image -->
+            </tr>
+            <tr>
+                <td>Oxygen Cylinders</td>
+                <td>50</td>
+                <td><img src="https://media.istockphoto.com/id/481103960/photo/oxygen.jpg?s=612x612&w=0&k=20&c=5sll3P7_eka58puY8tQi4wx250ui-zi399x1MIXQuK0=" alt="Saline Bags Image"></td>
+            </tr>
+            <tr>
+                <td>Available Doctors</td>
+                <td>10</td>
+                <td><img src="https://st2.depositphotos.com/1518767/7621/i/450/depositphotos_76211603-stock-photo-team-of-smiling-doctors.jpg" alt="Available Doctors Image"></td> <!-- Placeholder image -->
+            </tr>
+        </table>
+        <div class="book-appointment-btn">
+            <button onclick="window.location.href='Appointments.html'">book appointment</button>
+        </div>
+    </div>
+</body>
+</html>
